@@ -1,0 +1,23 @@
+msgid "Find out if your year is a leap year?"
+msgstr "УЗНАЙ ВИСОКОСНЫЙ ЛИ ТВОЙ ГОД?"
+
+msgid "Year"
+msgstr "Год"
+
+msgid "Enter year"
+msgstr "Введите год"
+
+msgid "Check"
+msgstr "Проверить"
+
+msgid "Yes"
+msgstr "да"
+
+msgid "No"
+msgstr "нет"
+
+msgid "Invalid year. Enter a year 1 or greater"
+msgstr "Некорректный год. Введите год от 1 и выше"
+
+msgid "Result will appear here"
+msgstr "Результат появится здесь"

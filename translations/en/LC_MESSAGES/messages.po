@@ -1,0 +1,23 @@
+msgid "Find out if your year is a leap year?"
+msgstr "Find out if your year is a leap year?"
+
+msgid "Year"
+msgstr "Year"
+
+msgid "Enter year"
+msgstr "Enter year"
+
+msgid "Check"
+msgstr "Check"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Invalid year. Enter a year 1 or greater"
+msgstr "Invalid year. Enter a year 1 or greater"
+
+msgid "Result will appear here"
+msgstr "Result will appear here"

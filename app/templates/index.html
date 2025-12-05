@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>{{ gettext('Find out if your year is a leap year?') }}</h1>
+    </header>
+
+    <main class="calculator">
+      <form method="post" novalidate>
+        <label for="year">{{ gettext('Year') }}</label>
+        <input id="year" name="year" inputmode="numeric" pattern="[0-9]*" value="{{ year }}" placeholder="{{ gettext('Enter year') }}">
+        <button type="submit">{{ gettext('Check') }}</button>
+      </form>
+
+      {% if error %}
+        <p class="error">{{ error }}</p>
+      {% elif result %}
+        <p class="result">{{ result }}</p>
+      {% else %}
+        <p class="hint">{{ gettext('Result will appear here') }}</p>
+      {% endif %}
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-text">{{ gettext('') }}</p>
+    </footer>
+  </div>
+</body>
+</html>
