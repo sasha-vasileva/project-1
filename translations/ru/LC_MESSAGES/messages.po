@@ -1,5 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: project-1\n"
+"POT-Creation-Date: 2025-12-06 00:00+0000\n"
+"PO-Revision-Date: 2025-12-06 00:00+0000\n"
+"Last-Translator: Dev <dev@example.com>\n"
+"Language-Team: Russian <ru@example.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
 msgid "Find out if your year is a leap year?"
-msgstr "УЗНАЙ ВИСОКОСНЫЙ ЛИ ТВОЙ ГОД?"
+msgstr "Узнайте, является ли ваш год високосным?"
 
 msgid "Year"
 msgstr "Год"
@@ -11,13 +24,13 @@ msgid "Check"
 msgstr "Проверить"
 
 msgid "Yes"
-msgstr "да"
+msgstr "Да"
 
 msgid "No"
-msgstr "нет"
+msgstr "Нет"
 
 msgid "Invalid year. Enter a year 1 or greater"
-msgstr "Некорректный год. Введите год от 1 и выше"
+msgstr "Недопустимый год. Введите год 1 или больше"
 
 msgid "Result will appear here"
 msgstr "Результат появится здесь"

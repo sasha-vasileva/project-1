@@ -1,0 +1,11 @@
+# Ignore compiled gettext files
+translations/*/LC_MESSAGES/*.mo
+*.mo
+
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.venv/
